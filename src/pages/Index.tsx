@@ -30,9 +30,6 @@ const Index = () => {
 
   const finishExercise = (technique: string) => {
     addHistory({ technique, thought, reflection });
-    reset();
-    setView("choose");
-    setStep(7);
   };
 
   const renderNav = () => (
